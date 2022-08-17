@@ -27,7 +27,7 @@ document.getElementById('deposite-button').addEventListener('click', function(){
 
 
 
-    // step 7 
+    // step 7 F
     IsDeposite.value = '';
 
 

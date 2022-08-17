@@ -13,7 +13,7 @@
 // })
 
 
-document.getElementById('withdraw').addEventListener('click', function(){
+document.getElementById('withdraw').addEventListener('click', function () {
     const withdrawField = document.getElementById('withdraw-field');
     const newWithdrawString = withdrawField.value;
     const newWithdrawAmount = parseFloat(newWithdrawString);
@@ -26,7 +26,7 @@ document.getElementById('withdraw').addEventListener('click', function(){
     const finalBalanceString = finalBalance.innerText;
     const lastBalance = parseFloat(finalBalanceString);
 
-    if(newWithdrawAmount > lastBalance){
+    if (newWithdrawAmount > lastBalance) {
         alert('do not have enough money')
         return;
     }
